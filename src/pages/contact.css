@@ -1,0 +1,317 @@
+.form {
+  width: 100vw;
+  margin: 0 auto;
+  margin-top: 7rem;
+}
+.copyRight {
+  width: 100vw;
+  color: #ffff;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+.row1 {
+  width: 84.3rem;
+  height: 35rem;
+  display: flex;
+}
+.col3 {
+  width: 50%;
+  background-color: #060606;
+  justify-content: center;
+  background: none;
+  margin-top: 3rem;
+  margin-left: 2rem;
+}
+.contact_data {
+  display: flex inline;
+  justify-content: flex-start;
+  background: none;
+  justify-content: center;
+
+  margin-top: 2rem;
+  margin-left: 10rem;
+  line-height: 5px;
+}
+.col3 img {
+  display: flex;
+  width: 1.5rem;
+  height: 1.5rem;
+  padding: 0.1rem 0.1rem;
+  border-radius: 50%;
+  background-color: #fff;
+}
+.col3 h1 {
+  color: #ffff;
+  background: none;
+  font-size: 1.8rem;
+  margin-left: 10rem;
+}
+.col3 p {
+  color: #ffff;
+  background: none;
+  max-width: 22rem;
+  margin-left: 10rem;
+}
+.col3 h3 {
+  color: #ffff;
+  margin-left: 10rem;
+  margin-top: 2rem;
+}
+.contact_data p {
+  color: rgb(98, 101, 104);
+  margin-left: 2rem;
+  background: none;
+  margin-top: 2rem;
+  font-size: 1rem;
+}
+.col3 h5 {
+  color: #ffff;
+  margin-left: 2rem;
+  background: none;
+}
+.col4 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background: none;
+  font-size: 1rem;
+  margin-left: 1rem;
+  margin-top: 2.5rem;
+}
+.col4 h1 {
+  color: #ffff;
+  /* height: 3rem; */
+  font-size: 1.8rem;
+  margin-left: 1.7rem;
+}
+.col4 textarea {
+  width: 25rem;
+  height: 8rem;
+  margin-left: 2rem;
+  color: rgb(0, 0, 0);
+  border-radius: 10px;
+  margin-top: 20px;
+  background: #ffffff;
+  text-align-last: auto;
+  font-size: 18px;
+  direction: none;
+  font-weight: 200;
+}
+.input1 {
+  width: 20rem;
+  margin-top: 10px;
+}
+.input1 input {
+  background: #ffffff;
+  border-radius: 10px;
+  width: 400px;
+  color: rgb(255, 255, 255);
+  border: 1px solid #333333;
+  margin-left: 2rem;
+  margin-top: 20px;
+  font-size: 18px;
+  text-align: center;
+}
+.btn7 {
+  background-color: #f0a500;
+  width: 5rem;
+  height: 2.5rem;
+  color: #ffffff;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  top: 0;
+  border: none;
+  border-radius: 5px;
+  margin-left: 2rem;
+  margin-bottom: 2.5rem;
+  margin-top: 20px;
+}
+.btn7:hover {
+  background-color: #fff;
+  color: #000000;
+}
+.social {
+  width: 70%;
+  height: 2.5rem;
+  background-color: #f0a500;
+  margin-top: 0.5rem;
+  margin-left: 10rem;
+  display: flex;
+  left: 0;
+  justify-content: center;
+  border-radius: 15px;
+}
+.social a {
+  background: none;
+}
+.social a img {
+  width: 30px;
+  height: 30px;
+  margin-left: 1.5rem;
+  margin-top: 0.2rem;
+}
+@media screen and (max-width: 600px) {
+  .form {
+    width: 100vw;
+    margin: 0 auto;
+    margin-top: 3rem;
+    display: flex;
+    flex-wrap: wrap-reverse;
+  }
+
+  .row1 {
+    object-fit: contain;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+  }
+  .col3 {
+    width: 45%;
+    background-color: #060606;
+
+    background: none;
+    margin-top: 3rem;
+    margin-left: 0px;
+    position: relative;
+  }
+  .contact_data {
+    justify-content: flex-start;
+    background: none;
+
+    margin-top: 2rem;
+    margin-left: 1rem;
+    line-height: 5px;
+  }
+  .col3 img {
+    display: flex;
+    width: 1rem;
+    height: 1rem;
+    padding: 0.1rem 0.1rem;
+    border-radius: 50%;
+    background-color: #fff;
+  }
+  .col3 h1 {
+    color: #ffff;
+    background: none;
+    font-size: 1.5rem;
+    margin-left: 1rem;
+  }
+  .col3 p {
+    color: #ffff;
+    background: none;
+    margin-left: 1rem;
+    font-size: 12px;
+  }
+  .col3 h3 {
+    color: #ffff;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    font-size: 14px;
+  }
+  .contact_data p {
+    color: rgb(98, 101, 104);
+    margin-left: 1rem;
+    background: none;
+    margin-top: 1rem;
+    font-size: 0.8rem;
+  }
+  .col3 h5 {
+    color: #ffff;
+    margin-left: 1rem;
+    font-size: 12px;
+    background: none;
+  }
+  .col4 {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    background: none;
+    font-size: 12px;
+    margin-left: 0rem;
+
+    width: 50%;
+    margin-top: 3rem;
+  }
+  .col4 h1 {
+    color: #ffff;
+    margin-left: 1.5rem;
+    font-size: 1.5rem;
+    height: 0px;
+  }
+  .col4 textarea {
+    width: 13rem;
+    height: 5rem;
+    margin-left: 0;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    border: 1px solid #333333;
+    background: #ffffff;
+    text-align-last: center;
+    font-size: 14px;
+    direction: none;
+    font-weight: 200;
+  }
+  .input1 {
+    width: 15rem;
+    margin-top: 50px;
+  }
+  .input1 input {
+    background: #ffffff;
+    border-radius: 10px;
+    width: 200px;
+    color: rgb(0, 0, 0);
+    border: 1px solid #333333;
+    left: 0;
+    margin-left: 0;
+    margin-top: 20px;
+    font-size: 10px;
+    text-align: center;
+  }
+  .btn7 {
+    background-color: #f0a500;
+    width: 4rem;
+    height: 1.7rem;
+    color: #ffffff;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    top: 0;
+    border: none;
+    font-size: 10px;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-top: 6rem;
+    margin-bottom: 0rem;
+  }
+  .btn7:hover {
+    background-color: #fff;
+    color: #000000;
+  }
+  .social {
+    width: 200px;
+    height: 2rem;
+    background-color: #f0a500;
+    margin-top: 2rem;
+    margin-left: 0px;
+    display: flex;
+    left: 0;
+    justify-content: center;
+    border-radius: 0px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+  .social a {
+    background: none;
+  }
+  .social a img {
+    width: 20px;
+    height: 20px;
+    margin-left: 1rem;
+    margin-top: 0.2rem;
+  }
+  .copyRight {
+    color: #ffff;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 0.2rem;
+    font-size: 10px;
+  }
+}

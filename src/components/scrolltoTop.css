@@ -1,0 +1,30 @@
+.scroll {
+  background: transparent;
+  position: fixed;
+  bottom: 5rem;
+  margin-left: 90%;
+  width: 100vw;
+  z-index: 99;
+}
+.scroll img {
+  width: 4rem;
+
+  background: none;
+}
+@media screen and (max-width: 600px) {
+  .scroll {
+    background-color: #ffff;
+    position: fixed;
+    height: 2rem;
+    width: 2rem;
+    bottom: 3rem;
+    margin-left: 80vw;
+    border-radius: 50%;
+    z-index: 10;
+  }
+  .scroll img {
+    width: 2rem;
+
+    background: none;
+  }
+}

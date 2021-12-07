@@ -1,0 +1,132 @@
+.cont3 {
+  top: 5rem;
+  width: 100vw;
+  place-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  height: fit-content;
+  position: relative;
+  background: url("../images/data.jpg");
+  background-size: 100%;
+  background-repeat: no-repeats;
+  background-position: 100%;
+  object-fit: cover;
+  overflow: hidden;
+}
+.cont3 .all_box {
+  background: none;
+  display: block;
+  margin-left: 0;
+}
+.cont3 .box {
+  border-radius: 10px;
+  height: 10rem;
+  width: 10rem;
+  position: relative;
+  margin-left: 20px;
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.2);
+  justify-items: center;
+}
+.cont3 .box:hover {
+  background-image: linear-gradient(
+    to right top,
+    #d16ba5,
+    #c777b9,
+    #ba83ca,
+    #aa8fd8,
+    #9a9ae1,
+    #8aa7ec,
+    #79b3f4,
+    #69bff8,
+    #52cffe,
+    #41dfff,
+    #46eefa,
+    #5ffbf1
+  );
+}
+
+.cont3 .box h2 {
+  font-size: 1.5rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 400;
+  background: none;
+  color: rgb(255, 255, 255);
+  display: grid;
+  place-content: center;
+  margin-top: 2rem;
+  padding: 1.25rem 1.25rem;
+  max-width: 3rem;
+  text-align: center;
+  margin-left: 2.5rem;
+}
+@media screen and (max-width: 600px) {
+  .cont3 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 100vw;
+    height: 60vh;
+
+    position: relative;
+    background: url("../images/data.jpg");
+    background-size: cover;
+    background-repeat: no-repeats;
+    background-position: center;
+    object-fit: cover;
+    overflow: hidden;
+  }
+  .cont3 .all_box {
+    background: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+    padding: 20px;
+    margin-left: 0;
+    max-width: 480px;
+  }
+  .cont3 .box {
+    border-radius: 10px;
+    height: 7rem;
+    width: 7rem;
+    position: relative;
+    background: rgba(255, 255, 255, 0.2);
+    justify-items: center;
+    margin-left: 20px;
+    margin-bottom: 15px;
+  }
+  .cont3 .box:hover {
+    background-image: linear-gradient(
+      to right top,
+      #d16ba5,
+      #c777b9,
+      #ba83ca,
+      #aa8fd8,
+      #9a9ae1,
+      #8aa7ec,
+      #79b3f4,
+      #69bff8,
+      #52cffe,
+      #41dfff,
+      #46eefa,
+      #5ffbf1
+    );
+  }
+
+  .cont3 .box h2 {
+    font-size: 1rem;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-weight: 400;
+    background: none;
+    color: rgb(255, 255, 255);
+    display: grid;
+    place-content: center;
+    margin-top: 1rem;
+    padding: 1.25rem 1.25rem;
+    max-width: 3rem;
+    text-align: center;
+    margin-left: 1rem;
+  }
+}

@@ -1,0 +1,166 @@
+.navbar {
+  height: 80px;
+  position: fixed;
+  background-color: none;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  z-index: 10;
+  display: flex;
+  box-shadow: #7392c0;
+}
+
+.item {
+  display: inline-flex;
+  margin-left: 0;
+  cursor: pointer;
+  margin-left: 200px;
+}
+
+.logo button {
+  border: none;
+
+  float: left;
+  margin-left: 2rem;
+  font-family: Pass Through;
+  font-size: 1rem;
+
+  width: 120px;
+}
+.logo h2 {
+  color: aliceblue;
+}
+.item .normal {
+  position: relative;
+  margin-left: 1.87rem;
+  border: none;
+  color: aliceblue;
+  font-size: 16px;
+  padding: 1.87rem 0.62rem 0.62rem 0.62rem;
+}
+.item .normal:hover {
+  color: #f0a500;
+  transition: 0.5s;
+}
+.item .btn_act {
+  background-color: #f0a500;
+  color: aliceblue;
+  position: absolute;
+  border: none;
+  border-radius: 5px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  justify-content: right;
+  float: right;
+  margin-left: 45rem;
+  margin-top: 1.5rem;
+}
+.btn_act:hover {
+  background-color: aliceblue;
+  color: black;
+  transition: 0.5s;
+}
+.fil {
+  background-color: #f0a500;
+  padding: 2rem 0.7rem 2rem 0.7rem;
+  font-size: 16px;
+  text-decoration: none;
+  color: aliceblue;
+  border: none;
+}
+.fil:hover {
+  background-color: aliceblue;
+  color: black;
+  transition: 0.5s;
+}
+.nav_bar_icon {
+  font-size: 25px;
+  color: #f0a500;
+  display: none;
+  align-items: center;
+}
+/*Responsive*/
+@media screen and (max-width: 600px) {
+  .navbar {
+    display: none;
+  }
+  .Mobile_nav {
+    display: flex;
+
+    height: 80px;
+    position: fixed;
+    background-color: none;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    box-shadow: #7392c0;
+    border-bottom: 2px solid #f0a500;
+  }
+  .Mobile_nav .Mobile_logo button {
+    border: none;
+    position: fixed;
+    display: block;
+    margin-left: 15px;
+    margin-top: 0px;
+    background: none;
+    font-family: Pass Through;
+    font-size: 0.7 rem;
+  }
+  .Mobile_logo h2 {
+    color: aliceblue;
+    display: block;
+    position: fixed;
+    left: 0;
+    margin-left: 20px;
+    margin-top: 10px;
+    background: none;
+    font-size: 20px;
+  }
+
+  .Mobile_nav .item {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    width: 100%;
+    background: none;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0px;
+    top: 186px;
+    background-color: black;
+  }
+
+  .Mobile_nav .item .normal {
+    position: relative;
+    margin-left: 0;
+    border: none;
+    color: aliceblue;
+    font-size: 1rem;
+    width: 100vw;
+    text-align: center;
+    margin-top: 0px;
+    top: 0;
+    background: black;
+    cursor: pointer;
+    padding: 20px;
+  }
+  .Mobile_nav .item .normal:hover {
+    color: #ffffff;
+    background-color: #f0a500;
+    transition: ease-out;
+  }
+  .Mobile_nav .nav_bar_icon {
+    color: #f0a500;
+    display: block;
+    margin-top: 20px;
+    margin-left: 90%;
+    position: absolute;
+    right: 20px;
+    cursor: pointer;
+  }
+}

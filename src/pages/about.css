@@ -1,0 +1,154 @@
+.contaner2 {
+  margin-top: 10rem;
+  width: 100vw;
+  background: none;
+}
+
+.row0 {
+  width: 100vw;
+  display: flex;
+}
+.col9 {
+  justify-content: center;
+  width: 50%;
+}
+.col9 .about_img {
+  width: 30rem;
+  height: 30rem;
+  margin-left: 150px;
+}
+.col10 {
+  width: 50%;
+  justify-content: center;
+  margin-left: 5rem;
+}
+.col10 h2 {
+  color: #fff;
+  max-width: 15rem;
+  line-height: 1.5rem;
+}
+.col10 p {
+  color: rgb(150, 150, 150);
+  max-width: 30rem;
+  font-weight: 100;
+  font-size: 1rem;
+  line-height: 1rem;
+  margin-top: 0.7rem;
+}
+.col10 h3 {
+  color: #ffff;
+  font-size: 1rem;
+  font-weight: 50;
+  margin-top: 0.7rem;
+}
+.smart .btn3 {
+  border: none;
+  border-radius: 0.4rem;
+  background-color: #f0a500;
+  color: aliceblue;
+  padding: 10px 25px;
+  font-size: 0.9rem;
+  margin-top: 0.7rem;
+}
+.btn3:hover {
+  background-color: aliceblue;
+  color: #f0a500;
+  transition: 0.6s;
+}
+.smart .btn4 {
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  padding: 0.6rem 1.8rem;
+  font-size: 1rem;
+  margin-left: 2rem;
+  margin-top: 0.7rem;
+}
+.smart .btn4:hover {
+  background-color: rgb(69, 211, 211);
+  color: black;
+  transition: 0.6s;
+}
+@media screen and (max-width: 600px) {
+  .contaner2 {
+    margin-top: 2rem;
+    width: 100vw;
+  }
+
+  .row0 {
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .col9 {
+    width: 100vw;
+    margin-top: 1rem;
+  }
+  .col9 .about_img {
+    width: 100vw;
+    height: 200px;
+    margin-left: 0px;
+  }
+  .col10 {
+    width: 100vw;
+    position: relative;
+    margin-left: 10px;
+    margin-top: 1rem;
+  }
+
+  .col10 svg {
+    margin-top: 10px;
+    width: 50px;
+    height: 10px;
+  }
+
+  .col10 h2 {
+    color: #fff;
+    max-width: 20rem;
+    line-height: 1.5rem;
+  }
+  .col10 p {
+    color: rgb(150, 150, 150);
+    max-width: 25rem;
+    font-weight: 100;
+    font-size: 1rem;
+    line-height: 1rem;
+    margin-top: 0.7rem;
+  }
+  .col10 svg {
+    width: 425px;
+  }
+  .Path_36850 {
+    display: grid;
+    place-items: center;
+    width: 500px;
+  }
+  .col10 h3 {
+    color: #ffff;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 0.7rem;
+    text-align: center;
+  }
+  .smart .btn3 {
+    border: none;
+    border-radius: 15px;
+    background-color: #f0a500;
+    color: aliceblue;
+    padding: 5px 10px;
+    margin-left: 20px;
+    font-size: 12px;
+    margin-top: 0.7rem;
+  }
+  .smart .btn4 {
+    border: 1px solid white;
+    border-radius: 15px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 5px 10px;
+    font-size: 12px;
+    margin-left: 2rem;
+    margin-top: 0.7rem;
+  }
+}

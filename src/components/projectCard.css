@@ -1,0 +1,133 @@
+.card {
+  width: 15.6rem;
+  height: 4.68rem;
+  border-radius: 20px;
+  margin-left: 1.87rem;
+  margin-top: 1.56rem;
+  background-color: #334756;
+  display: inline-flex;
+}
+.card:hover {
+  background-color: #f0a500;
+  transition: 0.5s;
+}
+
+.card .icon_box {
+  height: 3.12rem;
+  position: absolute;
+  width: 3.12rem;
+  box-sizing: border-box;
+  border-radius: 50%;
+  margin-top: 1.5%;
+  margin-left: 1.5%;
+  display: flexbox;
+  justify-items: center;
+  background-color: #f0a500;
+}
+
+.logo {
+  background: none;
+  position: relative;
+  color: rgb(255, 255, 255);
+  align-items: center;
+  text-align: center;
+  display: grid;
+  size: 5px;
+}
+.logo img {
+  background: none;
+  height: 25px;
+  width: 25px;
+  margin-left: 12px;
+  margin-top: 12px;
+}
+.skill {
+  background: none;
+  width: 100%;
+  display: flex;
+  width: 100%;
+}
+.skill h3 {
+  background: none;
+  position: relative;
+  color: #ffffff;
+  justify-content: center;
+  max-width: 35px;
+  margin-left: 90px;
+  margin-top: 25px;
+  font-size: 15px;
+}
+.skill .arrow {
+  position: relative;
+  background: none;
+  float: right;
+  margin-left: 100px;
+  margin-top: 25px;
+  top: 0;
+}
+.skill .arrow img {
+  background: transparent;
+}
+@media screen and (max-width: 600px) {
+  .card {
+    width: 13.6rem;
+    height: 4.68rem;
+    border-radius: 0.3;
+    margin-left: 1.87rem;
+    margin-top: 1.56rem;
+    background-color: #334756;
+    display: inline-flex;
+    border-radius: 40px;
+  }
+  .card .icon_box {
+    height: 3.12rem;
+    position: absolute;
+    width: 3.12rem;
+    box-sizing: border-box;
+    border-radius: 50%;
+    margin-top: 15px;
+    margin-left: 1%;
+    display: flexbox;
+    justify-items: center;
+    background-color: #f0a500;
+  }
+
+  .logo {
+    background: none;
+    position: relative;
+    color: rgb(255, 255, 255);
+    align-items: center;
+    size: 5px;
+  }
+  .logo img {
+    background: none;
+    height: 25px;
+    width: 25px;
+    margin-left: 12px;
+    margin-top: 12px;
+  }
+  .skill {
+    background: none;
+    width: 100%;
+    display: flex;
+    width: 100%;
+  }
+  .skill h3 {
+    background: none;
+    position: relative;
+    color: #ffffff;
+    justify-content: center;
+    max-width: 35px;
+    margin-left: 90px;
+    margin-top: 25px;
+    font-size: 15px;
+  }
+  .skill .arrow {
+    position: relative;
+    background: none;
+    float: right;
+    margin-left: 4rem;
+    margin-top: 25px;
+    top: 0;
+  }
+}

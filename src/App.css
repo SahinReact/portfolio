@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Scheherazade+New:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+
+  font-family: Scheherazade New;
+  font-weight: 400;
+  background-color: #082032;
+}
+
+.contaner {
+  width: 100vw;
+  position: relative;
+
+  margin: 0 auto;
+  margin-top: 7rem;
+}
+.particle {
+  position: absolute;
+  height: 40%;
+}
+.row {
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+}
+.col-1 {
+  width: 50%;
+  justify-content: center;
+}
+.col-2 {
+  width: 50%;
+  position: relative;
+  background: none;
+  justify-content: center;
+}
+
+.col-2 img {
+  width: 20rem;
+  height: 20rem;
+  margin-top: 3rem;
+  margin-left: 7rem;
+  border-radius: 60px;
+  opacity: 10;
+  z-index: -1;
+}
+@media screen and (max-width: 600px) {
+  .contaner {
+    width: 100vw;
+    margin-top: 7rem;
+  }
+  .row {
+    width: 460px;
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+  }
+  .col-1 {
+    position: relative;
+    display: grid;
+    place-items: center;
+    width: 100vw;
+    background: none;
+  }
+  .col-2 {
+    width: 100vw;
+    background: none;
+    display: grid;
+    place-items: center;
+  }
+  .col-2 img {
+    background: none;
+    width: 250px;
+    height: 250px;
+    margin-left: 0;
+    border-radius: 50%;
+    z-index: 1;
+  }
+}
